@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(180deg, #5a5a5a, #fff 100px, #375e1e);
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.bigline{
+  text-align: center;
+}
+
+.downlbig{
+  text-align: center;
+}
+
+.dowl1 {
+  text-underline-offset: none ;
+  text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: black;
+}
+
+.dowl2 {
+  text-underline-offset: none;
+  text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: black;
+}
+
+
+.dowl3{
+  text-underline-offset: none;
+  text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: black;
+}
+
+.bigline{
+  color: black;
+}

@@ -94,3 +94,40 @@ body {
     margin-top: 7rem;
   }
 }
+
+.downl {
+  text-underline-offset: none ;
+  text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: gray;
+}
+
+.downl2 {
+  text-underline-offset: none;
+  text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: gray;
+}
+
+
+.downl3 {
+  text-underline-offset: none;
+  text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: gray;
+}
+
+
+.downlbig{
+  text-align: center;
+}
+
+.marioimage{
+  width: 140px;
+}
