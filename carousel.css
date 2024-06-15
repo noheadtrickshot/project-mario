@@ -34,8 +34,9 @@ body {
   height: 32rem;
 }
 
-.btn btn-outline-success {
-  color: #375e1e;
+.btn{
+  color: white;
+  background-color: black;
 }
 
 /* MARKETING CONTENT
@@ -101,7 +102,7 @@ body {
     text-decoration-thickness: initial;
     text-decoration-style: initial;
     text-decoration-color: initial;
-    color: gray;
+    color: black;
 }
 
 .downl2 {
@@ -110,7 +111,7 @@ body {
     text-decoration-thickness: initial;
     text-decoration-style: initial;
     text-decoration-color: initial;
-    color: gray;
+    color: black;
 }
 
 
@@ -120,14 +121,34 @@ body {
     text-decoration-thickness: initial;
     text-decoration-style: initial;
     text-decoration-color: initial;
-    color: gray;
+    color: black;
 }
 
 
 .downlbig{
   text-align: center;
+  color: black;
 }
 
 .marioimage{
   width: 140px;
+}
+
+.col-lg-4{
+  color: black;
+}
+
+.btn1 {
+  color: black;
+}
+
+.btn1{
+  background-color: #0d6efd;
+  color: white;
+  text-underline-offset: none;
+  text-decoration-line: none;
+}
+
+.bg-dark {
+  background-color: black !important;
 }
