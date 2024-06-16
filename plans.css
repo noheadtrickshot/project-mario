@@ -48,3 +48,11 @@ body {
 .bigline{
   color: black;
 }
+
+.downl4{
+  text-decoration-line: none;
+  text-decoration-thickness: initial;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+  color: black;
+}

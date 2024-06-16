@@ -140,3 +140,9 @@ strong{
 .bd-placeholder-img {
   margin-top: -70px;
 }
+
+.downl4{
+  color: black;
+  text-underline-offset: none;
+  text-decoration-line: none;
+}
