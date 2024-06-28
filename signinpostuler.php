@@ -8,6 +8,9 @@
     <meta name="generator" content="Hugo 0.84.0">
     <title>Signin Template · Bootstrap v5.0</title>
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9855095814074451"
+     crossorigin="anonymous"></script>
+     
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
     <!-- Bootstrap core CSS -->
@@ -53,7 +56,7 @@
       </label>
     </div>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Envoyer</button>
-    <p class="bigline">&copy; 2024- <a class="dowl1" href="https://www.termsfeed.com/live/f924f486-2f4f-41ba-a356-e67a0a2e66a9">Termes & Conditions </a></p>
+    <p class="bigline">&copy; 2024- <a class="dowl1" href="terms and conditions-1.html">Termes & Conditions </a></p>
   </form>
 
   <?php
@@ -61,8 +64,8 @@
     $email = htmlspecialchars($_POST['email']);
     $phone = htmlspecialchars($_POST['phone']);
 
-    $to = "recipient-email@example.com"; // Replace with your email
-    $subject = "New Lead Captured";
+    $to = "servicetontelocal@gmail.com"; // Replace with your email
+    $subject = "il veut se postuler ( il veux savoir plus sur travailler et tondre des gazons pour nous.)";
     $message = "Email: $email\nPhone: $phone";
     $headers = "From: no-reply@example.com"; // Replace with your sender email
 
