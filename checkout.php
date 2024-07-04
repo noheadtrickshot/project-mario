@@ -141,12 +141,17 @@
 
           <?php
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $firstname = htmlspecialchars($_POST['firstname']);
+    $lastname = htmlspecialchars($_POST['lastname']);
     $email = htmlspecialchars($_POST['email']);
-    $phone = htmlspecialchars($_POST['phone']);
+    $address = htmlspecialchars($_POST['address']);
+    $size = htmlspecialchars($_POST['size']);
+    $zip = htmlspecialchars($_POST['zip']);
+  }
 
-    $to = "servicegazon@servicetonte.com"; // Replace with your email
+    $to = "servicetontelocal@gmail.com; // Replace with your email
     $subject = "il veut en savoir plus sur le plan 1 tonte";
-    $message = "Email: $email\nPhone: $phone";
+    $message = "Prénom: $firstname\nnom: $lastname\nEmail: $email\nAddress: $address\nTaille du Terrain: $size\nCode Postale: $zip";
     $headers = "From: no-reply@example.com"; // Replace with your sender email
 
     if (mail($to, $subject, $message, $headers)) {

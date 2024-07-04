@@ -64,7 +64,7 @@
     $email = htmlspecialchars($_POST['email']);
     $phone = htmlspecialchars($_POST['phone']);
 
-    $to = "servicetontelocal@gmail.com"; // Replace with your email
+    $to = "servicetonte@gmail.com"; // Replace with your email
     $subject = "il veut en savoir plus sur le plan 1 tonte";
     $message = "Email: $email\nPhone: $phone";
     $headers = "From: no-reply@example.com"; // Replace with your sender email
