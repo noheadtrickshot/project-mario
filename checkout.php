@@ -146,10 +146,9 @@
     $email = htmlspecialchars($_POST['email']);
     $address = htmlspecialchars($_POST['address']);
     $size = htmlspecialchars($_POST['size']);
-    $zip = htmlspecialchars($_POST['zip']);
-  }
+    $zip = htmlspecialchars($_POST['size']);
 
-    $to = "servicetontelocal@gmail.com; // Replace with your email
+    $to = "servicegazon@servicetonte.com"; // Replace with your email
     $subject = "il veut en savoir plus sur le plan 1 tonte";
     $message = "Prénom: $firstname\nnom: $lastname\nEmail: $email\nAddress: $address\nTaille du Terrain: $size\nCode Postale: $zip";
     $headers = "From: no-reply@example.com"; // Replace with your sender email
